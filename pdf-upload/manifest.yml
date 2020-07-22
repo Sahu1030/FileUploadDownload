@@ -1,0 +1,9 @@
+applications:
+-  name: filereader
+   memory: 2.5G
+   path: target/hrservices.jar
+   random-route: false
+   buildpacks:
+   - java_buildpack
+   services:
+   - filereader
